@@ -1,5 +1,6 @@
 header {
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .nav-item a{
@@ -35,3 +36,9 @@ header {
     width:100%;
     max-height: 600px !important;
   }
+
+footer {
+    background-color: #351c44;
+    color: white;
+    min-height: 120px;
+}
