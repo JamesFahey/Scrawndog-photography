@@ -1,8 +1,32 @@
 header {
-    text-align: center;
-    height: 150px;
+    margin: 15px;
 }
 
-.nav-item li{
-    color: #351c44;
+.nav-item a{
+    color: white;
+    font-size: 150%;
+}
+
+#logo-container {
+    width: 300px;
+    height: 300px;
+    /* padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%; */
+    margin: 0 auto;
+}
+
+#logo-cover-bg {
+    background: url('../images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.bg-color-nav-links {
+    background-color: #351c44;
 }
