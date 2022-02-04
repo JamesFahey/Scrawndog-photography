@@ -3,6 +3,10 @@ header {
     margin-bottom: 15px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .nav-item a{
     color: white;
     font-size: 150%;
@@ -71,4 +75,25 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.about-us-icon {
+    font-size: 30px;
+    color: #351c44;
+}
+
+.about-us-heading {
+    margin-bottom: 10px;
+    color: #351c44;
+}
+
+.section-heading {
+    color: #351c44;
+    font-size: 200%;
 }
