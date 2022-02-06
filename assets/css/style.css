@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 header {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -10,6 +12,7 @@ header {
 .nav-item a{
     color: white;
     font-size: 150%;
+    font-weight: 200;
     padding-top: 20px;
 }
 
@@ -26,6 +29,7 @@ header {
     border-width: 1px;
     border-radius: 50%; */
     margin: 0 auto;
+    background-color: ;
 }
 
 #logo-cover-bg {
@@ -81,6 +85,8 @@ footer {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .about-us-icon {
@@ -91,9 +97,30 @@ footer {
 .about-us-heading {
     margin-bottom: 10px;
     color: #351c44;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
 }
 
 .section-heading {
     color: #351c44;
     font-size: 200%;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bg-color-about-us {
+    background-color: #9CAF88;
+}
+
+.bg-color-contact-us {
+    background-color: #9CAF88;
+}
+
+.form-control {
+    background-color: #9CAF88;
+    border: 1px solid black;
+}
+
+.contact-us-section {
+    margin-bottom: 5px;
 }
